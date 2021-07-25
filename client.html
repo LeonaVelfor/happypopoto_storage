@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css"/>
+    <script type="text/javascript" src="http://code.jquery.com/jquery-1.7.2.min.js"></script>
+    <script type="text/javascript" src="script_cadastro.js"></script>
+    
+    <title>Happy Popoto</title>
+</head>
+<body>
+    <div class="container">
+        <header class="header">
+            <nav id="menu">
+                <ul type= "disc" class="icons">
+                    <li  ><a href="index.html"> Home</a></li>
+                    <li class="icon3"><a href="client.html"> Cadastro de Cliente</a></li>
+                    <li class="icon4"><a href="pedido.html"> Cadastro de Produto</a></li>
+                </ul>
+            </nav>
+          </header>
+          <div class="titulo1">
+            <h1>Cadastro de Cliente</h1>
+          </div>
+    <div class="container-form">
+        <form class="form-area" id="frmCadastro">
+            <h3>Nome do Cliente</h3>
+                <input type="text" name="client_name" id="client_name" required>
+            <h3>CPF</h3>
+                <input type="number" name="client_cpf" id="client_cpf" required>
+            <h3>Endereço</h3> 
+                <input type="text" name="client_end_cep" id="client_endereco">  
+            <h3>Email</h3>
+                <input type="email" name="client_email" id="client_email" required> 
+            <h3>Telefone para contato</h3>
+                <input type="number" name="client_tel" id="client_tel">
+            <br/>
+            <button type="submit"  id="btnSalvar" onclick="salvarCliente()">Cadastrar</button>
+        </form>
+   
+    </div>
+    <footer class="footer-area">
+        <p>Desenvolvido por Leona Velfor</p>
+        <a href="https://br.linkedin.com/in/j%C3%A9ssica-maria-vieira-evangelista-487a98205"><img src="linkedin.png"/></a>
+      </footer>
+
+</body>
+</html>
