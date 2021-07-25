@@ -303,8 +303,14 @@ nav#menu a:hover {
 @media (max-width: 900px)
 {
 
+  nav#menu{
+    margin-bottom: 10vh;
+    height: 6vh;
+    border: 3px rgb(22, 22, 22) solid;
+  }
   nav#menu li{
-    font-size: 3.3vw;
+    margin-left: 0.1vh;
+    font-size: 3.2vw;
     
   }
 
@@ -313,6 +319,7 @@ nav#menu a:hover {
     max-width: 100%;
     max-height: 100%;
     position: relative;
+    margin-top: 2vh;
     margin: auto;
     
   }
