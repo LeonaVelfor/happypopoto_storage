@@ -304,10 +304,12 @@ nav#menu a:hover {
 {
 
   nav#menu li{
-    font-size: 2.5vw;
+    font-size: 3.3vw;
+    
   }
 
   .slideshow-container {
+    
     max-width: 100%;
     max-height: 100%;
     position: relative;
@@ -316,7 +318,7 @@ nav#menu a:hover {
   }
   .titulo h1 {
 
-    font-size: 7vw;
+    font-size: 8vw;
     padding: 1.5vw;
     margin-left: 31vw;
     
@@ -330,10 +332,17 @@ nav#menu a:hover {
     
   }
 
+  .divisoria1 img {
+  
+    height:12vw;
+    width:100vw;
+    
+  }
+
   .form-area input[type="text"], input[type="number"], input[type="email"]{
     width: 65vw;
     height: 6vw;
-    padding: 1vw;
+    padding: 3vw;
   }
   .form-area button{
     margin-bottom: 0;
@@ -342,11 +351,11 @@ nav#menu a:hover {
     width: 30vw;}
 
   .footer-area{
-    font-size: 2vw;
+    font-size: 3.5vw;
   }
 
   .footer-area img{
-    width: 3vw;
+    width: 5vw;
   }
 
 }
