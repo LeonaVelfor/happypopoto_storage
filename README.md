@@ -30,6 +30,8 @@
 
 :heavy_check_mark: Os dados cadastrados são armazenados no LocalStorage com um ID relacionado ao mesmo (Não são armazenados em forma de Array)
 
+:heavy_check_mark: Aplicação responsiva
+
 
 ## Layout ou Deploy da Aplicação :dash:
 
